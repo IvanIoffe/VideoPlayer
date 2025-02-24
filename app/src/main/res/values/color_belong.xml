@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@color/blue</color>
+    <color name="primary_dark">@color/dark_blue</color>
+
+    <color name="window_background">@color/white</color>
+    <color name="video_list_background">@color/white</color>
+    <color name="item_video_background">@color/white</color>
+    <color name="button_text">@color/white</color>
+    <color name="text_view_video_duration_text">@color/white</color>
+    <color name="text_view_video_name_player_view_text">@color/white</color>
+
+    <color name="snackbar_background">@color/white</color>
+    <color name="snackbar_textview_text">@color/black</color>
+    <color name="snackbar_button_text">@color/black</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@color/light_blue</color>
+    <color name="primary_dark">@color/blue</color>
+
+    <color name="window_background">@color/black</color>
+    <color name="video_list_background">@color/black</color>
+    <color name="item_video_background">@color/black</color>
+
+</resources>

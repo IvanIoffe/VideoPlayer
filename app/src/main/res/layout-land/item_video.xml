@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ItemVideo.Root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewVideoThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textViewVideoName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textViewVideoDuration"
+        style="@style/TextView.VideoDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="54:36"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewVideoThumbnail"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewVideoName"
+        style="@style/TextView.VideoName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/video_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewVideoThumbnail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
